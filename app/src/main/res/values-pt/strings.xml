@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Life Points Calculator</string>
+    <string name="new_game">Novo Jogo</string>
+    <string name="initial_life_points">8000</string>
+    <string name="play_name">Jogar</string>
+    <string name="options">Opções</string>
+    <string name="obliterate">Obliterar</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="MainActivityActionBarTheme"
+        parent="AppTheme">
+        <item name="android:actionBarStyle">@style/MainActionBar</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MainActionBar"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/red</item>
+    </style>
+
+    <style name="PlayerActivityActionBarTheme"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/PlayerActionBar</item>
+    </style>
+
+    <style name="PlayerActionBar"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@drawable/gradient_blue_white_red</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

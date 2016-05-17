@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_initial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="horizontal"
+    tools:context=".MainActivityFragment">
+
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/play_name"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        android:textStyle="italic|bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/options_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/options"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        android:textStyle="italic|bold">
+
+    </Button>
+
+</LinearLayout>
