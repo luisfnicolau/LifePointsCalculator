@@ -2,32 +2,347 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Luis\Desktop\Prog Projects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.0.2\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="C:\Users\Luis\Desktop\Prog Projects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-a07eb9e9385f31679f45a045d24503ed1b352e78.jar" />
+        sha1="6ff48ef26bc539c78af4aa061cb9bad6abcbf5e8">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-a74b021e4498a86ed9f0b1c92f3aa2b74327d37c.jar" />
     </item>
     <item
-        jar="C:\Users\Luis\Desktop\Prog Projects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.2\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="C:\Users\Luis\Desktop\Prog Projects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-6328e09abe12b0f83e2afee7e2ed244c2fc61d0b.jar" />
+        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-41eb4131ad3682be09be5b950b04772ba243a09c.jar" />
     </item>
     <item
-        jar="C:\Users\Luis\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.0.2\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="C:\Users\Luis\Desktop\Prog Projects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-b8b2ab8a517200481248e38b072a3c03793ac23c.jar" />
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-f6bd11ea57e10eaae8ef6e7a8c130b202a9152dd.jar" />
     </item>
     <item
-        jar="C:\Users\Luis\Desktop\Prog Projects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.0.2\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="C:\Users\Luis\Desktop\Prog Projects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-227d8c5914efb47b665f40e1e99347d09483ae59.jar" />
+        sha1="53f10fcd322a3931495d6ca2078a81f4957cdbce">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-d19568f9d886e378095ffc80d27fbc5f3d1f6b6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-78df731a74a499d6762749ca7824fb16e8430d31.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-28651ec25fc309067c9c083ef46d176846dfa40d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-2e23e969b4e491ed0a03686ea18f12e604fd1832.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6c58c14d15602fea2c50138c73bb107e8b832b62">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-8e347f97654ba8760b2cd034b58443f567676fa6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-c2548023f7044527d49beb44b703054173033b0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="20e1a0f0de6276a5f36062b655f8b20f8cc00cc4">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-6539e95deb182c0d7e297a3ff4b35a1c63301ff0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e11da70cff6a544a45cdc21f419802d9bb9043ac">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-d9036004ce24d9985bb603b02dd3078af9642314.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-a3ed8b0368cd2f32c72616dfd0e009b224ab6d13.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0c835e9f3875cf245877c9b17d1c69bc98f16057">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-4025f13503cf8384f31f17fedf5ba7de4259c40d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-230202bce0aba5790d52f21e84e9c49fbf1765e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-6cee91161f2ed08ae2bf096e33d34f068065044a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-c62a2c7b799d3df1aca5da1a62373ab833a1facc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2ab5be19bbd34bae74662ea6b2d4451314d92d97">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-b944614607f499de3c490e3c2fca5c43e8e7b82e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c96952c162c9f6076f44c5939982cb35491442ea">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-74a8ac9f1c603a0075ee09703c9454f61a9960c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f4fb6981392ca7680d02fd57d26d6124c141d9d9">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-323d705dee1315b1acadac694404ebdbf467e584.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d900f2a1ff098cac8befe6c023d723e9afb154be">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-acd926e62f99c6ce8176b3107857579579215d57.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f399a2fde7888450cadcaec4974bfd169d8cce43">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-a9d3d95e958580eaea99343a4defa1c72a87b0a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b6af089f583d547bcffc0689b2e80bc7aaa54b15">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-526c690ddfd80b9e823816b6d604054bd09e9925.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="143813b18381b28de1e04aae1d92fcb374a0add9">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-de088cd71a551a5941f19944c68973a8099e5d24.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="604ecf403feb0084dc6d0c12f1677a490cf45e4c">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-7b7a568de8280c1bd39c8d9dfb6425ff2369d234.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-12e95b7ca921458c405766752ef9ddf5bedcc96d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-a9972bb2109bec2b4ce48401df1a0d98bf174940.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe5b47e764869f1076cb9cfe12801ed2ef4e9117">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-6279540c8fe594624a581f73a4b1d6e344e7cd6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="829c6e46cb221c2102801221c648b77113743e81">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-714594962c0688305e3bfcc4be6e1d57bdc80ccf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="060a7157438a0b1b0706b99c430fb3ecbc5a79a4">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-3089d591b3e8faa86a9456d72fb5ba24a0207020.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-e954af927521fef22388e77a76b9f62cc9abc97e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-19093ed2724e1bec0ed086b9fba435b2f39386ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a498fab72f8663c26fbf3d4496eb6b673b17bcae">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-23f5005f770178b2be24bba59d87ff494bc70ec7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-49931a3ef5bf9dc09c0f81c0a014466c4e63566c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-27caa4e042dbe2c33290f2f3268f80dbc577d5a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b8e0372ca6dc89ac4fe22b76eeea4f68ece435b8">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-b1bf9be2de6b5cba84ce0e337a621209156a3892.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cd4c7c54e15d9ccbc448384fa2c4684d69ca73f0">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-3f316fad1031800ecd9697a80bed992723c0c310.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-7c2d6df23ac70f6a723d7ba16afa555491c848c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="764d32faf85bc6f7bd2cdcb3a70a482c1884fdd2">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-9ca5df74cd713ea027db163ef3dc23a8432d1643.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8c0fc9b1ea0bac0cb31d60c8b1bf2feb0518e3a9">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-4c75ec6d3a8ff838d96ffab8c370578dfa36c08c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d9ea4cdaafa29ec4651d6e4715788d3fcaa7b913">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-b96b1510949eb885c1cdb6978bdeb06648da99f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-76f8dce45dfd522c511582a6b0e9956386ed0cac.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="922c24fbfc4247947fcfaf2b95f295a16a8c3d17">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-aef114d3f5dc3aa01e4309ee60f461d1ad88849a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-d898f0b0aba5a3c25dbc2479b446615daf81ff5a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-53e826a7523127d35d060c9fedd6602580a679b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="92a1d5f71b0fc8938f1d3f2e6ef984b52b894b4d">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-1f11bd4ba377e9008358c6fc21557baf53c572d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a45bc1ed812137b21dddd1cedaa3712b308f0b3f">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-73bcc46e4d68bda208aa173338cef9cd42c63e46.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bc156efaaee99f1ef6bf471347373a4cbb28e2a1">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-bcff852426dfd60e1924e1a60a0ada8f711c42da.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7e52b440a26498c56b4f263e215223b5451c955e">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-f53d839462e1d2dbc6f7645d07e2635b0527b544.jar" />
+    </item>
+    <item
+        jar="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
+        <dex dex="C:\Users\Luis\Desktop\ProgProjects\AndroidStudio\StudioProjects\LifePointsCalculator\app\build\intermediates\pre-dexed\debug\classes-0f4d956aba72678c22c8e7271f3d8a2bea529f4c.jar" />
     </item>
 
 </items>

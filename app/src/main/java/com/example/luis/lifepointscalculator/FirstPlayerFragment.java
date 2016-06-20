@@ -59,9 +59,8 @@ public class FirstPlayerFragment extends Fragment implements View.OnClickListene
     SharedPreferences prefs;
 
     public FirstPlayerFragment() {
-        if (listLifePoints.size() != 0) {
+        if (listLifePoints.size() != 0)
             lifePoints = listLifePoints.get(listLifePoints.size() - 1);
-        }
     }
 
     @Override
@@ -73,7 +72,6 @@ public class FirstPlayerFragment extends Fragment implements View.OnClickListene
         context = getActivity().getApplicationContext();
 
         prefs = PreferenceManager.getDefaultSharedPreferences(context);
-
 
         playerName = prefs.getString(context.getString(R.string.pref_name_key_player1), context.getString(R.string.pref_default_player1));
 
@@ -135,6 +133,8 @@ public class FirstPlayerFragment extends Fragment implements View.OnClickListene
         TextView lpGainView = (TextView) rootView.findViewById(R.id.one_player_lp_to_change);
         lpGainView.setVisibility(View.VISIBLE);
         int screenOrientation = getScreenOrientation();
+        SharedPreferences.Editor editor = prefs.edit();
+
         switch (v.getId()) {
 
             case undoBut:
@@ -144,12 +144,15 @@ public class FirstPlayerFragment extends Fragment implements View.OnClickListene
                     lifePoints = listLifePoints.get(listLifePoints.size() - 1);
                     TextView lpView = (TextView) rootView.findViewById(R.id.one_player_lp);
                     lpView.setText(String.valueOf(lifePoints));
+
                 }
                 else{
                     lifePoints = Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default)));
                     TextView lpView = (TextView) rootView.findViewById(R.id.one_player_lp);
                     lpView.setText(String.valueOf(lifePoints));
                 }
+                editor.putInt(context.getString(R.string.first_player_lp), lifePoints);
+                editor.commit();
                 gainLP = 0;
                 break;
 
@@ -174,6 +177,9 @@ public class FirstPlayerFragment extends Fragment implements View.OnClickListene
                     gainLP = 0;
                     lpView.setText(String.valueOf(lifePoints));
                     listLifePoints.add(lifePoints);
+                    editor = prefs.edit();
+                    editor.putInt(context.getString(R.string.first_player_lp), lifePoints);
+                    editor.commit();
                 }
                 lpGainView.setVisibility(View.INVISIBLE);
                 break;
@@ -276,6 +282,9 @@ public class FirstPlayerFragment extends Fragment implements View.OnClickListene
         listLifePoints.add(lifePoints);
         TextView textView = (TextView) rootView.findViewById(R.id.one_player_lp);
         textView.setText(String.valueOf(lifePoints));
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putInt(context.getString(R.string.first_player_lp), -1);
+        editor.commit();
     }
 
     public static ArrayList<Integer> getListLifePoints() {

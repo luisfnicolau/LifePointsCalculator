@@ -62,4 +62,12 @@
     <string name="fourth_player_transition">fopt</string>
     <string name="start_transition">startT</string>
     <string name="options_transition">optionsT</string>
+
+    <style name="main_ad_id">ca-app-pub-5716255329259577/3760491244</style>
+    <string name="banner_ad_id_test">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="first_player_lp">FPLP</string>
+    <string name="second_player_lp">SPLP</string>
+    <string name="third_player_lp">TPLP</string>
+    <string name="fourth_player_lp">FoPLP</string>
 </resources>

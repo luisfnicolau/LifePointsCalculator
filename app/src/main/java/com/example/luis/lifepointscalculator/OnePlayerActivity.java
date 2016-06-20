@@ -1,6 +1,5 @@
 package com.example.luis.lifepointscalculator;
 
-import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -12,14 +11,16 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.WindowManager;
 
-public class OnePlayerActivity extends FragmentActivity implements ActionBar.TabListener {
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.MobileAds;
 
-    ActionBar actionBar;
+public class OnePlayerActivity extends FragmentActivity {
+
     ViewPager viewPager;
     FragmentPagerAdapter ft;
     SharedPreferences prefs;
     Context context;
-    int initialLP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,37 +28,72 @@ public class OnePlayerActivity extends FragmentActivity implements ActionBar.Tab
         //Remove notification bar
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+        context = getApplicationContext();
+
         setContentView(R.layout.activity_one_player);
 
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544/6300978111");
 
-        context = getApplicationContext();
+        final com.google.android.gms.ads.AdView mAdView = (com.google.android.gms.ads.AdView) findViewById(R.id.adViewOnePlayer);
+        if (mAdView != null) {
+            AdRequest adRequest = new AdRequest.Builder().build();
+            mAdView.loadAd(adRequest);
+            mAdView.setAdListener(new AdListener() {
+                @Override
+                public void onAdLoaded() {
+                    super.onAdLoaded();
+                    mAdView.setVisibility(View.VISIBLE);
+                }
+            });
+        }
+
         prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        initialLP = Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default)));
+
+        int lastLPFirst = prefs.getInt(getApplicationContext().getString(R.string.first_player_lp), -1);
+        int lastLPSecond = prefs.getInt(getApplicationContext().getString(R.string.second_player_lp), -1);
+        int lastLPThird = prefs.getInt(getApplicationContext().getString(R.string.third_player_lp), -1);
+        int lastLPFourth = prefs.getInt(getApplicationContext().getString(R.string.fourth_player_lp), -1);
+
+        int initialLPFirst;
+        int initialLPSecond;
+        int initialLPThird;
+        int initialLPFourth;
+
+        if (lastLPFirst >= 0)
+            initialLPFirst = lastLPFirst;
+        else
+            initialLPFirst = Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default)));
+
+        if (lastLPSecond >= 0)
+            initialLPSecond = lastLPSecond;
+        else
+            initialLPSecond = Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default)));
+
+        if (lastLPThird >= 0)
+            initialLPThird = lastLPThird;
+        else
+            initialLPThird = Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default)));
+
+        if (lastLPFourth >= 0)
+            initialLPFourth = lastLPFourth;
+        else
+            initialLPFourth = Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default)));
 
         viewPager = (ViewPager) findViewById(R.id.pager);
         ft = new FragmentPageAdapter(getSupportFragmentManager());
 
         viewPager.setAdapter(ft);
-
-        FirstPlayerFragment.addLifePoints(initialLP);
-        SecondPlayerFragment.addLifePoints(initialLP);
-        ThirdPlayerFragment.addLifePoints(initialLP);
-        FourthPlayerFragment.addLifePoints(initialLP);
-    }
-
-    @Override
-    public void onTabSelected(ActionBar.Tab tab, android.app.FragmentTransaction ft) {
-    }
-
-    @Override
-    public void onTabUnselected(ActionBar.Tab tab, android.app.FragmentTransaction ft) {
+        FirstPlayerFragment.addLifePoints(Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default))));
+        FirstPlayerFragment.addLifePoints(initialLPFirst);
+        SecondPlayerFragment.addLifePoints(Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default))));
+        SecondPlayerFragment.addLifePoints(initialLPSecond);
+        ThirdPlayerFragment.addLifePoints(Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default))));
+        ThirdPlayerFragment.addLifePoints(initialLPThird);
+        FourthPlayerFragment.addLifePoints(Integer.parseInt(prefs.getString(context.getString(R.string.pref_life_points_key), context.getString(R.string.pref_life_points_default))));
+        FourthPlayerFragment.addLifePoints(initialLPFourth);
 
     }
 
-    @Override
-    public void onTabReselected(ActionBar.Tab tab, android.app.FragmentTransaction ft) {
-
-    }
 
     public void settings(View view) {
         Intent intent = new Intent(context, OptionsActivity.class);

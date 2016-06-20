@@ -134,6 +134,8 @@ public class FourthPlayerFragment extends Fragment implements View.OnClickListen
         TextView lpGainView = (TextView) rootView.findViewById(R.id.one_player_lp_to_change);
         lpGainView.setVisibility(View.VISIBLE);
         int screenOrientation = getScreenOrientation();
+        SharedPreferences.Editor editor = prefs.edit();
+
         switch (v.getId()) {
 
             case undoBut:
@@ -149,6 +151,8 @@ public class FourthPlayerFragment extends Fragment implements View.OnClickListen
                     TextView lpView = (TextView) rootView.findViewById(R.id.one_player_lp);
                     lpView.setText(String.valueOf(lifePoints));
                 }
+                editor.putInt(context.getString(R.string.first_player_lp), lifePoints);
+                editor.commit();
                 gainLP = 0;
                 break;
 
@@ -173,6 +177,9 @@ public class FourthPlayerFragment extends Fragment implements View.OnClickListen
                     gainLP = 0;
                     lpView.setText(String.valueOf(lifePoints));
                     listLifePoints.add(lifePoints);
+                    editor = prefs.edit();
+                    editor.putInt(context.getString(R.string.fourth_player_lp), lifePoints);
+                    editor.commit();
                 }
                 lpGainView.setVisibility(View.INVISIBLE);
                 break;
@@ -269,6 +276,9 @@ public class FourthPlayerFragment extends Fragment implements View.OnClickListen
         listLifePoints.add(lifePoints);
         TextView textView = (TextView) rootView.findViewById(R.id.one_player_lp);
         textView.setText(String.valueOf(lifePoints));
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putInt(context.getString(R.string.fourth_player_lp), -1);
+        editor.commit();
     }
 
     static public ArrayList<Integer> getListLifePoints() {

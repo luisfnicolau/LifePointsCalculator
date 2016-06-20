@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1057355318525",
+    "firebase_url": "https://admob-app-id-9807024849.firebaseio.com",
+    "project_id": "admob-app-id-9807024849",
+    "storage_bucket": "admob-app-id-9807024849.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057355318525:android:d22e5bbbc6cff17a",
+        "android_client_info": {
+          "package_name": "com.example.luis.lifepointscalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057355318525-kffov74onh8eqjr018iu9o96rvoraftg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANG5gVtVdsakv7if91UwFQvpvl-nLrBM0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

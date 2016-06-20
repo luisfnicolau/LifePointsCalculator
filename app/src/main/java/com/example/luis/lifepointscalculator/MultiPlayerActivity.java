@@ -10,13 +10,31 @@ public class MultiPlayerActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_multi_player);
+
+//        MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544/6300978111");
+//
+//        final com.google.android.gms.ads.AdView mAdView = (com.google.android.gms.ads.AdView) findViewById(R.id.adView);
+//        if (mAdView != null) {
+//            AdRequest adRequest = new AdRequest.Builder().build();
+//            mAdView.loadAd(adRequest);
+//            mAdView.setAdListener(new AdListener() {
+//                @Override
+//                public void onAdLoaded() {
+//                    super.onAdLoaded();
+//                    mAdView.setVisibility(View.VISIBLE);
+//                }
+//            });
+//        }
     }
 
     public void settings(View view) {
         Intent intent = new Intent(getApplicationContext(), OptionsActivity.class);
         startActivity(intent);
     }
+
+
 
 
 //    @Override
